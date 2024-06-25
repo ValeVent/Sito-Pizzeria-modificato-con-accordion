@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Progetto pizzeria</title>
+    <!--  collego file css -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- collego il font Cabin, nei suoi pesi -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <!-- TOP MENU -->
+      <div id="top-menu">
+        <div class="contatti">
+          <div class="single-icon">
+            <img src="media/icons8-mappa-64.png" alt="località" width="10%" />
+            <p>Castellaneta Marina (TA)</p>
+          </div>
+          <div class="single-icon">
+            <img src="media/icons8-indirizzo-50.png" alt="indirizzo" width="10%"/>
+            <p>Via Aldrin, 20, 74011</p>
+          </div>
+          <div class="single-icon">
+            <img src="media/icons8-telefono-50.png" alt="telefono" width="10%" />
+            <p>349 795 2307</p>
+          </div>
+        </div>
+      </div>
+      <!-- MENU-PRIMARY -->
+      <nav class="nav-primary">
+        <div class="logo">
+          <a href="#"
+            ><img src="media/MenuLogo.png" alt="logo" width="20%"
+          /></a>
+        </div>
+      </nav>
+    </header>
+
+    <!-- CONTENT -->
+    <!-- MENU PIZZERIA -->
+<div class="menu-accordion">
+    <button class="accordion">ANTIPASTI</button>
+    <div class="panel">
+      <img src="media/menu-antipasto.jfif" alt="">
+    </div>
+
+    <button class="accordion">PIZZE</button>
+    <div class="panel">
+      <img src="media/menu-pizzeria.jfif" alt="">
+    </div>
+
+    <button class="accordion">PIZZE GOURMET</button>
+    <div class="panel">
+      <img src="media/menu-pizze-gourmet.jfif" alt="">
+    </div>
+
+    <button class="accordion">BEVANDE</button>
+    <div class="panel">
+      <img src="media/menu-bevande.jfif" alt="">
+    </div>
+    
+  </div>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>© copyright 2024 Ristorante Re Mida. Tutti i diritti riservati.</p>
+    </footer>
+    
+    <!--  collego file js -->
+
+     <script src="functions.js"></script>
+  </body>
+</html>
